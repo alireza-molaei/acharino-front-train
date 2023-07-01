@@ -1,0 +1,302 @@
+@font-face {
+  font-family: iransans;
+  src: url("../fonts/iransans/iransans-medium.eot") format("eot");
+  src: url("../fonts/iransans/iransans-medium.woff") format("woff");
+  src: url("../fonts/iarnsans/iransans-medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: iransans-bold;
+  src: url("../fonts/iarnsans/iransans-bold.woff") format("woff");
+}
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/yekan/YekanBakh-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: pinar-bold;
+  src: url("../fonts/pinar/Pinar-DS4-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: pinar-norm;
+  src: url("../fonts/pinar/Pinar-DS4-Medium.woff2") format("woff2");
+}
+body {
+  font-family: iransans;
+}
+a {
+  color: #5d6677 !important;
+  text-decoration: none !important;
+  transition: all 0.25s;
+}
+a:hover {
+  color: #e4ba12 !important;
+}
+.custom-header {
+  background-color: #292d2f;
+}
+.custom.navbar {
+  background-color: #222628;
+}
+.social-box li {
+  background-color: #fdc900;
+  color: #222628 !important;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 32px;
+}
+.social-box li a {
+  color: #222628;
+}
+.phone-mail li a {
+  text-decoration: none;
+  color: #cdd3f0;
+}
+.phone-mail li {
+  color: #fdc900 !important;
+  font-size: 16px;
+}
+.custom-border-left {
+  border-left: 1px solid #efefef;
+  padding-left: 10px;
+}
+.serch-box input,
+button {
+  background-color: #eed881;
+  height: 30px;
+}
+.custom-img {
+  min-width: 90px;
+  max-width: 130px;
+  min-height: 60px;
+  max-height: 90px;
+}
+.btn-custom-color {
+  background-color: #fdc900;
+}
+.btn-custom-color:hover {
+  background-color: #eed881;
+}
+.navbar-custom li {
+  font-size: 17px;
+  padding: 0 10px;
+}
+.custom-btn-bar {
+  width: 50px;
+  height: 35px;
+}
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.slider-image {
+  height: 750px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.slider-image::after {
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  opacity: 0.7;
+  background-color: #1e2324;
+}
+.slider-top-container {
+  z-index: 99;
+}
+.slider-top-text {
+  padding: 7px 12px;
+  color: #fff;
+  width: max-content;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+  font-family: pinar-bold;
+}
+.slider-ptext {
+  color: #fff;
+  font-size: 2rem;
+  font-family: pinar-norm;
+}
+.header-box {
+  box-shadow: 0 30px 25px 0 rgb(133, 132, 132);
+  padding: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+  background-color: #fff;
+  border-bottom: 5px solid #fff;
+  transition: all 0.5s;
+}
+.header-box:hover {
+  transform: translate(0, -15px);
+  box-shadow: 0 10px 8px 0 rgb(133, 132, 132);
+}
+.header-box:hover .headbox-title {
+  color: #ebbe0d;
+}
+#header-boxes {
+  margin-top: -50px;
+  position: relative;
+  z-index: 999;
+}
+.headbox-title {
+  font-family: pinar-bold;
+  font-size: large;
+}
+.about-us-img {
+  box-shadow: 0 10px 10px 0 rgb(133, 132, 132);
+}
+.about-us-text {
+  font-family: pinar-bold;
+  font-size: 20px;
+}
+#services {
+  background-color: #f7fafd;
+}
+.pinar-font-bold {
+  font-family: pinar-bold;
+}
+.icon-box {
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 75px;
+  color: #fff;
+}
+.service-box {
+  background-color: #fff;
+  padding: 30px;
+  transition: all 0.5s;
+  border-radius: 20px;
+}
+.service-box:hover {
+  box-shadow: 0 20px 20px 0 #c9c7c7;
+  transform: translate(0, -12px);
+}
+.service-box:hover .service-box-title {
+  color: #ebbe0d;
+}
+#behtar-beshnas {
+  background-color: #f7fafd;
+  background-image: url("../img/behtar-beshnasid.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 90px 0 !important;
+  position: relative;
+}
+#behtar-beshnas::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#behtar-beshnas div,
+span,
+h3,
+h5 {
+  z-index: 999;
+}
+.odometer {
+  direction: ltr;
+}
+.custom-text-yellow {
+  color: #ebbe0d;
+}
+.article-post {
+  width: 100%;
+  height: 490px;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.5s;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.article-post::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to top, rgb(0, 0, 0), transparent);
+}
+.article-post:hover {
+  transform: translateY(-15px);
+}
+.article-post:hover::before {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(344deg, rgba(235, 190, 13, 0.7), transparent);
+}
+.article-post-title {
+  z-index: 99;
+}
+.article-post-top {
+  color: #ebbe0d;
+  transition: all 0.5s;
+}
+.article-post:hover .article-post-top {
+  color: #fff !important;
+}
+.article-post:hover .article-post-buttom {
+  transition: all 0.5;
+  cursor: pointer;
+}
+.news-post {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px 0 #5d6677;
+  transition: all 0.5s;
+}
+.news-post-image {
+  width: 100%;
+  height: 225px;
+}
+.news-post-body {
+  width: 100%;
+}
+.tech-button {
+  background-color: #292d2f;
+}
+.tech-button:hover {
+  background-color: #5d6677;
+  color: #eed881;
+}
+.font-yekan {
+  font-family: yekan;
+}
+.font-iransans-bold {
+  font-family: iransans-bold;
+}
+.news-post:hover {
+  box-shadow: 0 2px 5px #5d6677;
+}
+.partner-logo-box img {
+  max-width: 100%;
+}
+.partner-logo-box:hover img {
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+.swiper {
+  padding-bottom: 30px;
+}
+.partner-logo-box {
+  text-align: center;
+}
+.footer-ul li {
+  list-style: none;
+  margin-bottom: 10px;
+}

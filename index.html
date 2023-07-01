@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+
+    <link rel="stylesheet" href="assets/fonts/fontawesome/all.min.css" />
+
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/media/media.css" />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/odometer-0.4.6/odometer-theme-default.css"
+    />
+    <link
+      rel="stylesheet"
+      href="assets/plugins/swiperjs/swiper-bundle.min.css"
+    />
+    <script defer src="assets/fonts/fontawesome/all.min.js"></script>
+    <script defer src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script defer src="assets/plugins/odometer-0.4.6/odometer.min.js"></script>
+    <script defer src="assets/js/jquery-3.6.0.min.js"></script>
+    <script defer src="assets/plugins/jquery-appear/appear.js"></script>
+    <script defer src="assets/plugins/swiperjs/swiper-bundle.min.js"></script>
+    <script defer src="assets/js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="container-fluid custom-header py-2">
+        <div class="container">
+          <div
+            class="row justify-content-center justify-content-md-between justify-content-sm-center"
+          >
+            <div class="col-auto">
+              <div class="phone-mail mt-1">
+                <ul class="list-inline-item mb-0">
+                  <li class="list-inline-item custom-border-left">
+                    <i class="fa-solid fa-phone me-1"></i>
+                    <a href="#">0912-912-1212</a>
+                  </li>
+                  <li class="list-inline-item">
+                    <i class="fa-solid fa-envelope me-2"></i>
+                    <a href="#"> alireza-molaei@info</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-auto mt-2 mt-md-0 mt-lg-0">
+              <div class="social-box d-inline-block me-2">
+                <ul class="list-inline mb-0 d-none d-sm-none d-lg-inline-block">
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="serch-box d-inline-block">
+                <div class="input-group position-relative">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="جستجو کنید"
+                  />
+                  <button
+                    class="btn btn-outline-secondary position-relative"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container justify-content-between">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="custom-img"
+              src="assets/logo/acharinophoto.png"
+              alt="acharino"
+          /></a>
+
+          <button
+            class="navbar-toggler custom-btn-bar order-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse navbar-custom flex-grow-0"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">خانه</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">نمونه کار ها</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">درباره ما</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  صفحات
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="#">ماشین لباس شویی</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">ماشین ظرف شویی</a>
+                  </li>
+                  <li><a class="dropdown-item" href="#">یخچال</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">فر و گاز</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">پکیج</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class="btn btn-custom-color rounded-5 order-1">تماس بگیرید</div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="top-slider">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators pb-5">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="slider-image slider-top-container d-flex align-items-center justify-content-center"
+                style="background-image: url('assets/img/img-1.jpg')"
+              >
+                <div class="slider-top-container d-flex flex-column">
+                  <h1 class="slider-top-text">به آچارینو خوش آمدید</h1>
+                  <p class="slider-ptext">ما تیم فنی مهندسی آچارینو هستیم</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="slider-image"
+                style="background-image: url('assets/img/img-2.jpg')"
+              ></div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="slider-image"
+                style="background-image: url('assets/img/img-3.jpg')"
+              ></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="header-boxes">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="header-box mb-3">
+                <div class="row flex-column">
+                  <div class="col haedbox-icon">
+                    <span
+                      ><video
+                        src="assets/video/service-2.mp4"
+                        width="68"
+                        height="75"
+                        muted
+                        autoplay
+                        loop
+                      ></video>
+                    </span>
+                  </div>
+                  <div class="col headbox-title mt-2">
+                    <span> سرویس پکیج </span>
+                  </div>
+                  <div class="col haedbox-tozih mt-2">
+                    <span>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="header-box mb-3">
+                <div class="row flex-column">
+                  <div class="col haedbox-icon">
+                    <span>
+                      <video
+                        src="assets/video/service.mp4"
+                        width="68"
+                        height="75"
+                        muted
+                        autoplay
+                        loop
+                      ></video
+                    ></span>
+                  </div>
+                  <div class="col headbox-title mt-2">
+                    <span> تعمیرات تخصصی برد </span>
+                  </div>
+                  <div class="col haedbox-tozih mt-2">
+                    <span>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4">
+              <div class="header-box mb-3">
+                <div class="row flex-column">
+                  <div class="col haedbox-icon">
+                    <span>
+                      <video
+                        src="assets/video/service-3.mp4"
+                        width="68"
+                        height="75"
+                        muted
+                        autoplay
+                        loop
+                      ></video
+                    ></span>
+                  </div>
+                  <div class="col headbox-title mt-2">
+                    <span> نصب لوازم خانگی</span>
+                  </div>
+                  <div class="col haedbox-tozih mt-2">
+                    <span>
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ.لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+                      چاپ
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="about-us">
+        <div class="container mt-3">
+          <div class="row">
+            <div
+              class="col-sm-12 col-lg-6 flex-column text-center text-lg-start"
+            >
+              <div class="fs-5">درباره ما</div>
+
+              <div class="about-us-text">ما تیم فنی مهندسی آچارینو هستیم</div>
+              <div class="fs-6">
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت لورم
+                ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+              </div>
+              <div></div>
+              <br />
+              <div class="fs-6">با 10 سال سابقه کاری در استان های کرج و قم</div>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <div class="about-us-img">
+                <img
+                  src="assets/img/repairteam.jpg"
+                  class="rounded"
+                  width="100%"
+                  alt="درباره ما"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-auto mb-5">
+              <h3 class="pinar-font-bold text-center">
+                خدماتی که ما ارئه می دهیم
+              </h3>
+              <h5 class="pinar-font-norm">
+                محبوب ترین خدمات تیم فنی مهندسی آچارینو
+              </h5>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="service-box d-flex flex-column align-items-center">
+                  <div>
+                    <div class="icon-box mb-3">
+                      <video
+                        src="assets/video/washing-machine.mp4"
+                        width="64px"
+                        height="64px"
+                        loop
+                        muted
+                        autoplay
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="mb-3 pinar-font-bold service-box-title">
+                    نصب و تعمیرات ماشین لباس شویی
+                  </div>
+                  <div class="mb-3">
+                    <p class="text-center">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                  </div>
+                  <div><a href="">توضیحات بیشتر+</a></div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="service-box d-flex flex-column align-items-center">
+                  <div>
+                    <div class="icon-box mb-3">
+                      <video
+                        src="assets/video/pakege.mp4"
+                        width="64px"
+                        height="64px"
+                        loop
+                        muted
+                        autoplay
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="mb-3 pinar-font-bold service-box-title">
+                    نصب و تعمیرات پکیچ
+                  </div>
+                  <div class="mb-3">
+                    <p class="text-center">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                  </div>
+                  <div><a href="">توضیحات بیشتر+</a></div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="service-box d-flex flex-column align-items-center">
+                  <div>
+                    <div class="icon-box mb-3">
+                      <video
+                        src="assets/video/baking-oven.mp4"
+                        width="64px"
+                        height="64px"
+                        loop
+                        muted
+                        autoplay
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="mb-3 pinar-font-bold service-box-title">
+                    نصب و تعمیرات اجاق گاز
+                  </div>
+                  <div class="mb-3">
+                    <p class="text-center">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                  </div>
+                  <div><a href="">توضیحات بیشتر+</a></div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="service-box d-flex flex-column align-items-center">
+                  <div>
+                    <div class="icon-box mb-3">
+                      <video
+                        src="assets/video/yakhchal.mp4"
+                        width="64px"
+                        height="64px"
+                        loop
+                        muted
+                        autoplay
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="mb-3 pinar-font-bold service-box-title">
+                    نصب و تعمیرات یخچال
+                  </div>
+                  <div class="mb-3">
+                    <p class="text-center">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                  </div>
+                  <div><a href="">توضیحات بیشتر+</a></div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="service-box d-flex flex-column align-items-center">
+                  <div>
+                    <div class="icon-box mb-3">
+                      <video
+                        src="assets/video/mince-maker.mp4"
+                        width="64px"
+                        height="64px"
+                        loop
+                        muted
+                        autoplay
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="mb-3 pinar-font-bold service-box-title">
+                    تعمیرات لوازم خانگی
+                  </div>
+                  <div class="mb-3">
+                    <p class="text-center">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                  </div>
+                  <div><a href="">توضیحات بیشتر+</a></div>
+                </div>
+              </div>
+              <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+                <div class="service-box d-flex flex-column align-items-center">
+                  <div>
+                    <div class="icon-box mb-3">
+                      <video
+                        src="assets/video/vacuum-cleaner.mp4"
+                        width="64px"
+                        height="64px"
+                        loop
+                        muted
+                        autoplay
+                      ></video>
+                    </div>
+                  </div>
+                  <div class="mb-3 pinar-font-bold service-box-title">
+                    تعمیرات جاروبرقی
+                  </div>
+                  <div class="mb-3">
+                    <p class="text-center">
+                      لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                    </p>
+                  </div>
+                  <div><a href="">توضیحات بیشتر+</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="behtar-beshnas" class="py-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-auto mb-5">
+              <h3 class="pinar-font-bold text-center text-white">
+                ما را بهتر بشناسید
+              </h3>
+              <h5 class="pinar-font-norm text-white">
+                آمار و ارقام مربوط به شرکت
+              </h5>
+            </div>
+            <div class="row mt-5">
+              <div
+                class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex flex-column align-items-center"
+              >
+                <div class="pinar-font-bold h1 text-white">
+                  <span class="odometer custom-text-yellow" id="counter-1">
+                    0
+                  </span>
+                  <span class="custom-text-yellow">+</span>
+                </div>
+                <div
+                  class="pinar-font-norm text-white h6 mt-1 custom-text-yellow"
+                >
+                  کشور ها
+                </div>
+              </div>
+              <div
+                class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex flex-column align-items-center"
+              >
+                <div class="pinar-font-bold h1 text-white">
+                  <span class="odometer custom-text-yellow" id="counter-2">
+                    0
+                  </span>
+                  <span class="custom-text-yellow">+</span>
+                </div>
+                <div
+                  class="pinar-font-norm text-white h6 mt-1 custom-text-yellow"
+                >
+                  کار های انجام شده
+                </div>
+              </div>
+              <div
+                class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex flex-column align-items-center"
+              >
+                <div class="pinar-font-bold h1 text-white">
+                  <span class="odometer custom-text-yellow" id="counter-3">
+                    0
+                  </span>
+                  <span class="custom-text-yellow">+</span>
+                </div>
+                <div
+                  class="pinar-font-norm text-white h6 mt-1 custom-text-yellow"
+                >
+                  هدایای اهدایی
+                </div>
+              </div>
+              <div
+                class="col-sm-12 col-md-6 col-lg-3 mb-4 d-flex flex-column align-items-center"
+              >
+                <div class="pinar-font-bold h1 text-white">
+                  <span class="odometer custom-text-yellow" id="counter-4">
+                    0
+                  </span>
+                  <span class="custom-text-yellow">+</span>
+                </div>
+                <div
+                  class="pinar-font-norm text-white h6 mt-1 custom-text-yellow"
+                >
+                  مشتریان خوشحال
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="article" class="mt-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-auto mb-5">
+              <h3 class="pinar-font-bold text-center">مطالعات موردی</h3>
+              <h5 class="pinar-font-norm">لیست آخرین مطالعات موردی</h5>
+            </div>
+          </div>
+          <div class="row mt-4 justify-content-center">
+            <div
+              class="col-sm-12 col-md-6 col-lg-4 mb-4 text-center text-lg-start"
+            >
+              <div
+                class="article-post d-flex align-items-end"
+                style="background-image: url('assets/img/post1.jpg')"
+              >
+                <div class="article-post-title d-flex flex-column p-4">
+                  <div class="article-post-top mb-4">ماشین لباس شویی</div>
+                  <div
+                    class="article-post-buttom pinar-font-bold h5 text-white"
+                  >
+                    عیب یابی ماشین لباس شویی
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-6 col-lg-4 mb-4 text-center text-lg-start"
+            >
+              <div
+                class="article-post d-flex align-items-end"
+                style="background-image: url('assets/img/postup2.jpg')"
+              >
+                <div class="article-post-title d-flex flex-column p-4">
+                  <div class="article-post-top mb-4">پکیج گرمایشی</div>
+                  <div
+                    class="article-post-buttom pinar-font-bold h5 text-white"
+                  >
+                    کد های خطای پکیج گرمایشی
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-6 col-lg-4 mb-4 text-center text-lg-start"
+            >
+              <div
+                class="article-post d-flex align-items-end"
+                style="background-image: url('assets/img/postup3.jpg')"
+              >
+                <div class="article-post-title d-flex flex-column p-4">
+                  <div class="article-post-top mb-4">فر و گاز</div>
+                  <div
+                    class="article-post-buttom pinar-font-bold h5 text-white"
+                  >
+                    عیب یابی فر و گاز
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="partners" class="py-5 mt-5">
+        <div class="container">
+          <div class="swiper" id="partners-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="partner-logo-box">
+                  <img src="assets/img/1.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-logo-box">
+                  <img src="assets/img/2.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-logo-box">
+                  <img src="assets/img/3.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-logo-box">
+                  <img src="assets/img/4.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-logo-box">
+                  <img src="assets/img/5.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-logo-box">
+                  <img src="assets/img/6.png" />
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="partner-logo-box">
+                  <img src="assets/img/7.png" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="news" class="mt-5">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-auto mb-5">
+              <h3 class="pinar-font-bold text-center">وبلاگ</h3>
+              <h5 class="pinar-font-norm">آخرین مطالب وبلاگ</h5>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-4">
+            <div
+              class="col-sm-12 col-md-6 col-lg-4 mb-4 text-center text-lg-start"
+            >
+              <div class="news-post">
+                <div class="news-post-image">
+                  <img
+                    src="assets/img/postbot1.jpg"
+                    alt="پست اول"
+                    class="w-100 h-100 rounded"
+                  />
+                </div>
+                <div class="news-post-body d-flex flex-column p-4">
+                  <div class="col-auto">
+                    <div
+                      class="btn tech-button custom-text-yellow rounded-pill badge px-3 py-2"
+                    >
+                      تکنولوژی
+                    </div>
+                  </div>
+                  <div class="col-auto mt-3">
+                    <h3>
+                      <a
+                        href="#"
+                        class="news-post-title font-yekan h4 text-black"
+                      >
+                        برترین برند ابزار تعمیر
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-6 col-lg-4 mb-4 text-center text-lg-start"
+            >
+              <div class="news-post">
+                <div class="news-post-image">
+                  <img
+                    src="assets/img/postbot2.jpg"
+                    alt="پست دوم"
+                    class="w-100 h-100 rounded"
+                  />
+                </div>
+                <div class="news-post-body d-flex flex-column p-4">
+                  <div class="col-auto">
+                    <div
+                      class="btn tech-button custom-text-yellow rounded-pill badge px-3 py-2"
+                    >
+                      تکنولوژی
+                    </div>
+                  </div>
+                  <div class="col-auto mt-3">
+                    <h3>
+                      <a
+                        href="#"
+                        class="news-post-title font-yekan h4 text-black"
+                      >
+                        جدید ترین تجهیزات تعمیر برد
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-sm-12 col-md-6 col-lg-4 mb-4 text-center text-lg-start"
+            >
+              <div class="news-post">
+                <div class="news-post-image">
+                  <img
+                    src="assets/img/postbot3.jpg"
+                    alt="پست سوم"
+                    class="w-100 h-100 rounded"
+                  />
+                </div>
+                <div class="news-post-body d-flex flex-column p-4">
+                  <div class="col-auto">
+                    <div
+                      class="btn tech-button custom-text-yellow rounded-pill badge px-3 py-2"
+                    >
+                      تکنولوژی
+                    </div>
+                  </div>
+                  <div class="col-auto mt-3">
+                    <h3>
+                      <a
+                        href="#"
+                        class="news-post-title font-yekan h4 text-black"
+                      >
+                        برترین برند ابزار تعمیر
+                      </a>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer mt-5 border-top">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-xl-3 d-flex flex-column mb-4">
+            <img
+              src="assets/logo/acharino.png"
+              alt="آچارینو"
+              width="100"
+              height="120"
+            />
+            <p>
+              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپلورم
+              ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+            </p>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-3 d-flex flex-column mb-4">
+            <span class="pinar-font-bold h5 mb-3"> اخبار وبلاگ </span>
+            <div class="row mb-2">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-auto pe-0">
+                    <img
+                      src="assets/img/footer1.jpg"
+                      width="75"
+                      height="75"
+                      class="rounded"
+                    />
+                  </div>
+                  <div class="col d-flex flex-column justify-content-between">
+                    <a href="#" class="h6 font-yekan text-black">
+                      برترین برند ابزار تعمیر
+                    </a>
+                    <span>11 اسفند 1401</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-12">
+                <div class="row">
+                  <div class="col-auto pe-0">
+                    <img
+                      src="assets/img/postbot2.jpg"
+                      width="75"
+                      height="75"
+                      class="rounded"
+                    />
+                  </div>
+                  <div class="col d-flex flex-column justify-content-between">
+                    <a href="#" class="h6 font-yekan text-black">
+                      جدید ترین تجهیزات تعمیر برد
+                    </a>
+                    <span>11 اسفند 1401</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-3 d-flex flex-column mb-4">
+            <span class="pinar-font-bold h5 mb-4 ms-5"> خدمات ما </span>
+            <ul class="footer-ul text-black">
+              <li><a href="#" class="text-black">نصب و تعمیرات یخچال</a></li>
+              <li><a href="#" class="text-black">نصب و تعمیرات پکیج</a></li>
+              <li><a href="#" class="text-black">نصب و تعمیرات فر و گاز</a></li>
+              <li>
+                <a href="#" class="text-black">نصب و تعمیرات ماشین لباسشویی</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-12 col-md-6 col-xl-3 d-flex flex-column mb-4">
+            <span class="pinar-font-bold h5 mb-4">در تماس باشید </span>
+            <div class="d-flex align-items-center">
+              <div>
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="ms-3">
+                <div class="h6 mb-0">
+                  <a href="tel:09222222222"> 09222222222 </a>
+                </div>
+                <div class="h6 mb-0">
+                  <a href="tel:09222222222"> 09222222222</a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+              <div>
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="ms-3">
+                <div class="h6 mb-0">
+                  <a href="#"> alireza-molaei@gmail.com </a>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+              <div>
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="ms-3">
+                <div class="h6 mb-0">تهران و کرج و قم</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
